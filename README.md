@@ -12,21 +12,24 @@ and professional build automation.
 
 ## Overview
 
-A **Fibonacci Heap** is an advanced priority queue supporting excellent
-amortized performance for graph-heavy algorithms.
+A **Fibonacci Heap** is an advanced priority queue supporting excellent amortized performance for graph-heavy algorithms.
 
-  Operation      Amortized Complexity
-  -------------- ----------------------
-  Insert         O(1)
-  Find-Min       O(1)
-  Decrease-Key   O(1)
-  Union          O(1)
-  Extract-Min    O(log n)
-  Delete         O(log n)
+| Operation | Amortized Complexity |
+| :--- | :--- |
+| **Insert** | $O(1)$ |
+| **Find-Min** | $O(1)$ |
+| **Decrease-Key** | $O(1)$ |
+| **Union** | $O(1)$ |
+| **Extract-Min** | $O(\log n)$ |
+| **Delete** | $O(\log n)$ |
 
-This implementation includes: - Circular doubly-linked root list -
-Cascading cuts - Lazy consolidation - Strict warning flags - Debug /
-Release / Sanitized builds
+### Implementation Features
+This implementation includes:
+* **Circular doubly-linked root list**
+* **Cascading cuts**
+* **Lazy consolidation**
+* **Strict warning flags**
+* **Debug / Release / Sanitized builds**
 
 ------------------------------------------------------------------------
 
