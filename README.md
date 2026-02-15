@@ -166,5 +166,4 @@ MIT License (recommended for academic and industrial use)
 ## Author
 
 Dr. Subhankar Ghosal\
-Assistant Professor -- Theoretical Computer Science\
-Center of Excellence in TCS
+Assistant Professor -- in Center of Excellence of Theoretical Computer Science in Jain Deemed to be University
